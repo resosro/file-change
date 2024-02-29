@@ -12,6 +12,7 @@ class NewFileHandler(FileSystemEventHandler):
         print(response)
 
 
+# Watching folder
 def watch_folder(folder):
     event_handler = NewFileHandler()
     observer = Observer()
