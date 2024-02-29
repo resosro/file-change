@@ -27,7 +27,7 @@ def watch_folder(folder):
     observer.join()
 
 if __name__ == "__main__":
-    folder_to_watch = "/Users/wil13465/PycharmProjects"
+    folder_to_watch = r"\\redstorage3\devinfo\WRMResources\TestDocumentation\TestFramework\Apps"
     watch_folder(folder_to_watch)
     url = "https://wil13465:11cb2a6e08a134e77e6fa7a4331f791c69@ragsauto01.esri.com/job/Mobile_Apps_Testing/job/demo/build"
     response = requests.post(url, verify=False)
